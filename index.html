@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            text-align: center;
+        }
+
+        li{
+            float: left;
+            list-style-type: none;
+            padding: 10px;
+            margin: 0px;
+
+        }
+        .login{
+            margin: 200px;
+        }
+        .jam{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="/home/termoct/presindent.jgp" alt="soryy">
+    <p class="jam">{{time}}</p>
+    <div class="header">
+        <h1>my project</h1>
+        <address>develop by jhon</address>
+    </div>
+</header>
+<hr>
+<nav>
+<div class="nav">
+    <li><a href="#home">home</a></li>
+    <li><a href="#cobtack">contact</a></li>
+    <li><a href="#about">about</a></li>
+</div>
+</nav>
+
+<article>
+    <div class="login">
+        <form action="/" method="post">
+            <label for="username">username: </label>
+            <input type="text" name="username" placeholder="your username"><br>
+            <label for="password"> password: </label>
+            <input type="password" name="password" placeholder="your password"><br>
+            <input type="submit"  value="kirim" class="kirim">
+
+        </form>
+    </div>
+</article>
+</body>
+</html>
